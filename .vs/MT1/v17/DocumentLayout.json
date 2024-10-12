@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VisualBasic\\MT1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB9943-0979-4C3D-AB53-CC17468B9A5D}|MT1\\MT1.vbproj|c:\\visualbasic\\mt1\\mt1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2EAB9943-0979-4C3D-AB53-CC17468B9A5D}|MT1\\MT1.vbproj|solutionrelative:mt1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB9943-0979-4C3D-AB53-CC17468B9A5D}|MT1\\MT1.vbproj|c:\\visualbasic\\mt1\\mt1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2EAB9943-0979-4C3D-AB53-CC17468B9A5D}|MT1\\MT1.vbproj|solutionrelative:mt1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\VisualBasic\\MT1\\MT1\\Form1.vb",
+              "RelativeDocumentMoniker": "MT1\\Form1.vb",
+              "ToolTip": "C:\\VisualBasic\\MT1\\MT1\\Form1.vb",
+              "RelativeToolTip": "MT1\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T10:45:16.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\VisualBasic\\MT1\\MT1\\Form1.vb",
+              "RelativeDocumentMoniker": "MT1\\Form1.vb",
+              "ToolTip": "C:\\VisualBasic\\MT1\\MT1\\Form1.vb [Design]",
+              "RelativeToolTip": "MT1\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T10:38:02.779Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
