@@ -23,18 +23,13 @@ Public Class Form1
 
         '3  21
         '3  12
-        If ISA(0) > ISA(1) Then
+        If ISA(0) > ISA(1) AndAlso ISA(0) > ISA(2) Then
             If ISA(1) > ISA(2) Then
                 '  21
                 ISA_one = {ISA(2), ISA(0), ISA(1)}
                 ISA_two = {ISA(2), ISA(1), ISA(0)}
                 ISA_1.Text = "ISA_1 = [" + String.Join(", ", ISA_one) + "]"
                 ISA_2.Text = "ISA_2 = [" + String.Join(", ", ISA_two) + "]"
-            ElseIf ISA(0) > ISA(1) Then
-                '  2   13
-                ISA_one = {ISA(1), ISA(0), ISA(2)}
-                ISA_1.Text = "ISA_1 = [" + String.Join(", ", ISA_one) + "]"
-                ISA_2.Text = ""
 
             Else
                 '  12
@@ -47,7 +42,7 @@ Public Class Form1
 
             '2   31
             '1   32
-        ElseIf ISA(1) > ISA(0) Then
+        ElseIf ISA(1) > ISA(0) AndAlso ISA(1) > ISA(2) Then
             If ISA(0) > ISA(2) Then
                 '  2   31
                 ISA_one = {ISA(2), ISA(0), ISA(1)}
@@ -55,24 +50,32 @@ Public Class Form1
                 ISA_1.Text = "ISA_1 = [" + String.Join(", ", ISA_one) + "]"
                 ISA_2.Text = ""
 
-                '  1   23
-            ElseIf ISA(1) > ISA(0) Then
-                ISA_one = ISA
-                ISA_1.Text = "ISA_1 = [" + String.Join(", ", ISA_one) + "]"
-                ISA_2.Text = ""
 
-            Else
+            ElseIf ISA(1) > ISA(2) Then
                 '  1   32
-
                 ISA_one = ISA
                 ISA_two = {ISA(0), ISA(2), ISA(1)}
                 ISA_1.Text = "ISA_1 = [" + String.Join(", ", ISA_one) + "]"
                 ISA_2.Text = "ISA_2 = [" + String.Join(", ", ISA_two) + "]"
+
+
+
             End If
             '123
             '213
+        ElseIf ISA(2) > ISA(0) Then
+            '1     23
+            If ISA(1) > ISA(0) Then
+                ISA_one = ISA
+                ISA_1.Text = "ISA_1 = [" + String.Join(", ", ISA_one) + "]"
+                ISA_2.Text = ""
+            ElseIf ISA(0) > ISA(1) Then
+                '  2   13
+                ISA_one = {ISA(1), ISA(0), ISA(2)}
+                ISA_1.Text = "ISA_1 = [" + String.Join(", ", ISA_one) + "]"
+                ISA_2.Text = ""
 
-
+            End If
         End If
 
 
@@ -82,5 +85,14 @@ Public Class Form1
         index0.Text = ""
         index1.Text = ""
         index2.Text = ""
+
+        ISA_1.Text = ""
+        ISA_2.Text = ""
     End Sub
+
+    Private Sub F2_Click(sender As Object, e As EventArgs) Handles F2.Click
+        Form2.Show()
+        Me.Hide()
+    End Sub
+
 End Class

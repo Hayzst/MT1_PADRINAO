@@ -14,7 +14,7 @@ Option Explicit On
 Imports System
 Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("MT1"),  _
- Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
+ Assembly: System.Reflection.AssemblyConfigurationAttribute("Release"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
  Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d382f856d94e3b109539e7c6771de1b128da9459"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("MT1"),  _
